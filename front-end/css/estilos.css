@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document
+	Projeto: Fortal 2006 - Portal Verdes Mares
+	Autor: Marcelo Glacial
+	Inicio: 11/07/2006
+	Ultima Alteracao: 28/07/2006
+*/
+
+/* Reset */
+*  {
+	padding:0px;
+	margin:0px;
+}
+#Barras {
+	display: none;
+}
+/* Tags basicas */
+html {
+	background: url(../img/body_degrade.png) repeat-x 0 54px #FEAE31;
+}
+body {
+	background: url(../img/body_fundo.jpg) no-repeat center 54px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:70%;
+	color:#444;
+	text-align:center;
+}
+a {
+	color:#669933;
+	text-decoration:none;
+}
+a:hover {
+	color:#99CC00;
+}
+hr {
+	display:none;
+}
+/* Barras */
+#Barras {
+}
+/* Site */
+#Site {
+	width:745px;
+	margin:auto;
+	text-align:left;
+	background:url(../img/site_fundo.png) no-repeat bottom;
+}
+
+/* Atalhos */
+#Atalhos {
+	display:none;
+}
+
+/* Topo */
+#Topo {
+}
+#Topo h1 a {
+	display:block;
+	width:210px;
+	height:180px;
+	text-indent:-5000px;
+}
+
+/* Menu */
+#Menu {
+}
+#Menu h2 {
+	display:none;
+}
+#Menu ul {
+	list-style:none;
+	padding-left:270px;
+	*padding-left:60px;
+}
+#Menu ul li {
+	float:left;
+}
+#Menu ul li a {
+	display:block;
+	height:23px;
+	text-indent:-9000px;
+	margin-right:20px;
+}
+#Menu ul li a.agenda {
+	background:url(../img/menu_agenda.jpg);
+	width:84px;
+}
+#Menu ul li a.blocos {
+	background:url(../img/menu_blocos.jpg);
+	width:74px;
+}
+#Menu ul li a.precos {
+	background:url(../img/menu_precos.jpg);
+	width:73px;
+}
+#Menu ul li a.troca {
+	background:url(../img/menu_troca.jpg);
+	width:134px;
+}
+
+#Menu ul li a:hover {
+	background-position:0px -23px;
+}
+
+/* Conteudo */
+#Conteudo {
+	background:url(../img/conteudo_fundo.png) repeat-y right 50px;
+	width:441px;
+	text-align:left;
+	padding:90px 30px 1px 30px;
+	margin:117px 0 100px 230px;
+}
+#Conteudo .post {
+	background:url(../img/post_rodape.jpg) no-repeat bottom;
+	padding-bottom:10px;
+	margin-bottom:25px;
+}
+#Conteudo h2 {
+	display:none;
+}
+#Conteudo h3 {
+	font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-size:200%;
+	font-weight:bold;
+	color:#669900;
+	padding-bottom:10px;
+}
+#Conteudo a {
+	background:#EBF5CC;
+	padding:1px 5px 2px 5px;
+}
+#Conteudo a:hover {
+	background:#FFF;
+}
+#Conteudo p {
+	line-height:1.5em;
+	padding-bottom:1.7em;
+}
+#Conteudo img {
+	border:solid 4px #000;
+}
+#Conteudo ul,
+#Conteudo ol {
+	padding:0 0 1em 25px;
+}
+#Conteudo ul li,
+#Conteudo ol li {
+	line-height:1.3em;
+}
+#Conteudo .comentarios {
+	font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	display:block;
+	width:100px;
+	float:left;
+}
+#Conteudo .comentarios a {
+	padding:0;
+	background:none;
+}
+#Conteudo .data {
+	font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	color:#999;
+}
+
+/* Publicidade */
+#Publicidade {
+	position:absolute;
+	top:175px;
+	margin-left:240px;
+	background:#009999;
+	padding:3px;
+}
+#Publicidade * {
+	border:none;
+}
+/* Rodape */
+#Rodape {
+	height:13px;
+	font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	text-transform:lowercase;
+	width:200px;
+	position:relative;
+	top:-200px;
+}
+#Rodape a {
+	color:#FFF;
+	padding:3px;
+}
+#Rodape a:hover {
+	background:#000;
+}
+
+#Rodape p,
+#Rodape address {
+	text-align:right;
+	color:#FFF;
+	padding-bottom:10px;
+}

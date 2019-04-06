@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2007-fortal-svm/
+https://marceloglacial.github.io/2007-fortal-svm/front-end/
 
 ## Screnshot
 
